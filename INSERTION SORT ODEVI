@@ -1,0 +1,21 @@
+Bu algoritma, belirli bir anda array’in belirli bir kısmını sıralı tutarak ve bu kısmı her adımda biraz daha genişleterek çalışmaktadır.
+
+[22,27,16,2,18,6] - 22 kendi başına sıralı olduğu için hiçbir işlem yapılmadan devam eder. 
+[22,27,16,2,18,6] - 22 ve 27 verisi arasında karşılaştırma yapılır. 22 daha küçük olduğu için bir değişiklik yapılmaz. 
+[16,22,27,2,18,6] - Veriyi bir adım daha genişletir; 16, 22 ve 27’den küçük olduğu için başa geçer.
+[2,16,22,27,18,6] - Veriyi bir adım daha genişletir; 2, gerisindeki 16,22 ve 27’den küçük olduğu için başa geçer.
+[2,16,18,22,27,6] - Veriyi bir adım daha genişletir; 18, 22 ve 27 ile kıyaslanır, küçük olduğu için yer değiştirir, ardından 16 ile karşılaştırılır, büyük olduğu için değişiklik yapılmaz.
+[2,6,16,18,22,27] - Veriyi bir adım daha genişletir; 6, gerisindeki 16, 18,22 ve 27 ile kıyaslanır, küçük olduğu için yer değiştirir, ardından 2 ile karşılaştırılır, büyük olduğu için değişiklik yapılmaz. 
+
+Big O gösterimi = O(n²)
+
+AVARAGE CASE'DIR ortada oldugu icin.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı:
+
+Bu algoritma dizinin ilk elemanının en küçük eleman olduğunu varsaymakta ve ardından tek tek bu elemanı diğer elemanlarla karşılaştırarak çalışmaktadır. 
+
+1. Adım: [2,3,5,8,7,9,4,15,6] - 7 elemanı diğer elemanlarla kıyaslanır, 2 en küçük olduğu için 7 ile yer değiştirir ve başa geçer. İlk sıra tamamlanır. 
+2. Adım: [2,3,5,8,7,9,4,15,6] - 2. sıradaki 3 elemanı kalan diğer elemanlarla kıyaslanır, en küçük olduğu için değişiklik olmaz. ilk iki sıra tamamlanmış olur. 
+3. Adım: [2,3,4,8,7,9,5,15,6] -3. sıradaki 5 elemanı kalan diğer elemanlarla kıyaslanır, 4 en küçük olduğu için 5 ile yer değiştirir. İlk üç sıra tamamlanmış olur. 
+4.  Adım: [2,3,4,5,7,9,8,15,6] -4. sıradaki 8 elemanı kalan diğer elemanlarla kıyaslanır, 5 en küçük olduğu için 8 ile yer değiştirir. İlk dört sıra tamamlanmış olur.
