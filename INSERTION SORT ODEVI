@@ -18,4 +18,4 @@ Bu algoritma dizinin ilk elemanının en küçük eleman olduğunu varsaymakta v
 1. Adım: [2,3,5,8,7,9,4,15,6] - 7 elemanı diğer elemanlarla kıyaslanır, 2 en küçük olduğu için 7 ile yer değiştirir ve başa geçer. İlk sıra tamamlanır. 
 2. Adım: [2,3,5,8,7,9,4,15,6] - 2. sıradaki 3 elemanı kalan diğer elemanlarla kıyaslanır, en küçük olduğu için değişiklik olmaz. ilk iki sıra tamamlanmış olur. 
 3. Adım: [2,3,4,8,7,9,5,15,6] -3. sıradaki 5 elemanı kalan diğer elemanlarla kıyaslanır, 4 en küçük olduğu için 5 ile yer değiştirir. İlk üç sıra tamamlanmış olur. 
-4.  Adım: [2,3,4,5,7,9,8,15,6] -4. sıradaki 8 elemanı kalan diğer elemanlarla kıyaslanır, 5 en küçük olduğu için 8 ile yer değiştirir. İlk dört sıra tamamlanmış olur.
+4. Adım: [2,3,4,5,7,9,8,15,6] -4. sıradaki 8 elemanı kalan diğer elemanlarla kıyaslanır, 5 en küçük olduğu için 8 ile yer değiştirir. İlk dört sıra tamamlanmış olur.
