@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+            [16, 21, 11, 8, 12, 22]    -> Sıralı olmayan diziyi ortadan eşit olarak iki alt diziye ayırır.
+        [16,21,11]           [8,12,22] -> Bu ayırma işlemi, alt diziler en çok iki elemanlı olana kadar devam eder.
+    [16, 21]     [11]     [8]     [12,22]
+[16]  [21]    [11]    [8]     [12]       [22] ->MERGE 1
+     [11, 16, 21]          [8, 12, 22] -> MERGE2
+      [8, 11, 12, 16, 21, 22] -> MERGE3
+
+Big-O gösterimi
+Ayrıca her seferinde yarıya indiği için, 2^x  = n ise x= logn’dir.  İşlem, logn kez yapılmaktadır. 
+
+Bu nedenle Big-0 = O(n*logn)’dir.
