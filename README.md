@@ -1,2 +1,1 @@
-- 👋 Hi, I’m @iremlaletu
-- looking forward to cooperate
+###This file contains the assignments of Data Structures and Algorithms at Kodluyoruz.org  
